@@ -10,15 +10,17 @@ $level = count($ussd_string_exploded);
 if ( $text == "" ) {
 // first response when a user dials our ussd code
 $response  = " CON Thankyou for contacting  Emeds,Your healthcare is our concern Kindly choose the language of you choice? \n";
-$response .= "1.Continue in  English  \n";
-$response .= "2. Aqhubeke Zule \n";
+$response .= "1.Continue in  English \n";
+$response .= "2. Qhubeka ngesiZulu \n";
 }
 
 else if ($text == "1") {
 $response  = " CON Kindly choose the service that you want to access\n";
-$response .= "1. Medicine Transportation Services \n";
+$response .= "1. Medication delivery \n";
 $response .= "2.  Ambulance Services \n";
-$response .= "3. Registration Services\n";
+$response .= "3. Set an Appointment\n";
+$response .= "3. Service Enquiries\n";
+
 }
 //Menu for a user who selects '1' from the second menu above
 // Will be brought to this third menu screen
@@ -63,7 +65,7 @@ elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 2 && $level
 }
 
 else if ($text == "1*3") {
-$response = "CON You are about to register for our customer services\n";
+$response = "CON You are about to set an appointment \n";
 $response .= "Kindly enter your Full Names\n";
 }
 
@@ -80,7 +82,7 @@ elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 3 && $level
 }
 
 elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 3 && $level == 6) {
-    $response = "CON Please enter the name of the drug prescribed by the doctor";
+    $response = "CON Please enter the time that you would prefer to set the appointment";
 }
 
 elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 3 && $level == 7) {
