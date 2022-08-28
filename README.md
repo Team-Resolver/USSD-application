@@ -10,7 +10,7 @@
 - CON: It means an intermediate menu Or that the session is CONtinuing
 - END: Means the final menu and will trigger session termination i.e session is ENDing.
 
-A user will be able to access the ussd through dialing ***384*67947#** and a menu shall pop up for the user to be able to order a medicine or request for ambulance services.
+A user will be able to access the ussd through dialing ** *384*67947#** and a menu shall pop up for the user to be able to order a medicine or request for ambulance services.
 
 [Africas Talking](https://africastalking.com/)  sandbox simulator has been used  as it is  provided freely. First the simple ussd has been deployed on [heroku](https://ussd-enigma.herokuapp.com/) and later on the deployed link used on a simulator on a specific channel.
 
