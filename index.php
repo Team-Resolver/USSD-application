@@ -25,7 +25,7 @@ $response .= "3. Service Enquiries\n";
 //Menu for a user who selects '1' from the second menu above
 // Will be brought to this third menu screen
 else if ($text == "1*1") {
-$response = " CON Welcome to our Medicine Transportation Services kindly enter your Full Names\n";
+$response = " CON Welcome to our Medicine Delivery Services kindly enter your Full Names\n";
 }
 
 elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 1 && $level == 3) {

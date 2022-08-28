@@ -16,9 +16,9 @@ A user will be able to access the ussd through dialing  **[*384*67947#]** and a 
 
 
 
-![ussdcodepicture](images/opening.png)
+![ussdcodepicture](images/intro.png)
 
-![ussdcodepicture](images/service.png)
+![ussdcodepicture](images/services.png)
 
 ![ussdcodepicture](images/code.png)
 
