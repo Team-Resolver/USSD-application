@@ -16,7 +16,7 @@ $response .= "2. Qhubeka ngesiZulu \n";
 
 else if ($text == "1") {
 $response  = " CON Kindly choose the service that you want to access\n";
-$response .= "1. Medication delivery \n";
+$response .= "1. Medication Delivery Services \n";
 $response .= "2.  Ambulance Services \n";
 $response .= "3. Set an Appointment\n";
 $response .= "3. Service Enquiries\n";
